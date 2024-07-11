@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "username": "user2",
+      "password": "password2",
+      "id": 2
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "category": "Sci-Fi",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology...",
+      "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+      "poster": "https://m.media-amazon.com/images/I/81p+xe8cbnL._AC_SY679_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Matrix",
+      "category": "Action",
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "trailer": "https://www.youtube.com/watch?v=vKQi3bBA1y8",
+      "poster": "https://m.media-amazon.com/images/I/51EG732BV3L.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Blade Runner 2049 ",
+      "category": "Action, Drama, Mystery",
+      "description": "A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years",
+      "trailer": "https://www.youtube.com/watch?v=gCcx85zbxz4",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png"
+    },
+    {
+      "id": 4,
+      "title": "Ghost in the Shell",
+      "category": "Animation, Action, Crime",
+      "description": "A cyborg policewoman and her partner hunt a mysterious and powerful hacker called the Puppet Master.",
+      "trailer": "https://www.youtube.com/watch?v=oP2Pt6m3yKU",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1M9bl05U-MLsw2itxb-7A9eMfYFzoL2IPOg&s"
+    }
+  ],
+  "purchaseHistory": [
+    {
+      "id": 1,
+      "userId": 1,
+      "movieId": 1,
+      "purchaseDate": "2023-07-01"
+    }
+  ]
+}
